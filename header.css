@@ -29,10 +29,27 @@
     background-color: var(--branco);
     width: 60vw;
 }
-.container_botao{
+.container__botao{
     display: block;
 }
-.container_botao:checked~.lista-menu{
+.container__botao:checked~.lista-menu{
     display: block;
 }
-.lista-menu
+.lista-menu_item{
+     background:var(--amarelo);
+}
+.lista-menu_item{
+    background: var(--roxo-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.lista-menu_titulo, .lista-menu_item{
+    padding:1em;
+    background-color: var(--branco);
+}
+.por_do_sol{
+    width: 50px;
+    height: 50px;
+}
